@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.instagram-logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #405DE6 0%, #5851DB 25%, #833AB4 50%, #C13584 75%, #FD1D1D 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-logo .outer-circle{
+    width: 60%;
+    height: 60%;
+    border: 6px solid white;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.outer-circle .inner-circle{
+    width: 60%;
+    height: 60%;
+    border: 6px solid white;
+    border-radius: 50%;
+
+}
+
+
+.small-circle {
+    position: absolute;
+    top: 28%;
+    right: 29%;
+    width: 9%;
+    height: 9%;
+    background-color: white;
+    border-radius: 60%;
+} 
+
+
+
+/* ==============================
+PhonePay logo Code
+=============================== */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    margin: 0;
+} */
+
+/* .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: #4c3c9d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.p{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.phonepe-text{
+    color: #4c3c9d;
+        font-size: 50px;
+        margin-top: 10px;
+            font-size: 30px;
+            font-weight: bold;
+}
+
+ 
